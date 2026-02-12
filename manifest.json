@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Revelio",
+  "version": "1.0.0",
+  "description": "Reveals potentially hidden text on webpages (tiny font, invisible color, offscreen, etc.).",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Revelio",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  }
+}

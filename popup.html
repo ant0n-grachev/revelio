@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 12px; width: 260px; }
+      button { width: 100%; padding: 10px; margin: 6px 0; cursor: pointer; }
+      select { width: 100%; padding: 8px; margin: 4px 0 8px; }
+      label { display: block; font-size: 12px; opacity: 0.9; margin-top: 2px; }
+      .status { margin-top: 8px; font-size: 12px; opacity: 0.85; }
+      .small { font-size: 11px; opacity: 0.8; }
+    </style>
+  </head>
+  <body>
+    <label for="tolerance">Tolerance</label>
+    <select id="tolerance">
+      <option value="everything">Everything</option>
+      <option value="sweep">Sweep</option>
+      <option value="default" selected>Default</option>
+      <option value="precise">Precise</option>
+    </select>
+    <button id="scan">Scan this page</button>
+    <button id="clear">Clear highlights</button>
+    <div class="status" id="status">Ready.</div>
+    <div class="small">Tip: scan again after content loads.</div>
+    <script src="popup.js"></script>
+  </body>
+</html>
