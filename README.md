@@ -9,6 +9,9 @@ It helps surface text hidden through common CSS/DOM tricks, including:
 - clipping and pseudo-content patterns
 - other suspicious visibility manipulations
 
+![Screenshot 2026-02-1 _imresizer](https://github.com/user-attachments/assets/9ba5d5df-0b20-4d26-ac56-0424a54dc5ad)
+![Screenshot 2026-02-1 _imresizer-2](https://github.com/user-attachments/assets/ebaba2ab-3278-4cb6-b648-6d847fa29662)
+
 ## Why this exists
 
 Hidden text can be used for manipulation, prompt injection, policy evasion, or misleading page behavior. Revelio gives a fast manual audit view directly in the browser.
